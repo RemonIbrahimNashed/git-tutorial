@@ -64,5 +64,7 @@ git log
 // revert commit
 git log --oneline
 git revert "hash"
-
-
+//then vicevers
+git revert Head
+//
+git rebase master
