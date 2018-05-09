@@ -27,9 +27,22 @@ git branch
 git branch newfeature
 //got in branch 
 git checkout newfeature
+// create a branch and go in it 
+git checkout -b newfeature
+//got to master then merge 
+git checkout master
+git merge newfeature
+//delete branch
+git branch -d newfeature
+//git a local repo from remote repo 
+mkdir cloneRepo
+cd cloneRepo 
+git clone Linke of repo
+
 // create a new remote repo in your github account
 // take link of that repo 
 // add your remote to your local 
+// connect local to remote
 git remote add origin " link of remote repo "
 // add what in your remote repo to your local 
 git pull origin master 
