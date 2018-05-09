@@ -21,7 +21,12 @@ git config user.email "UserEmail"
 //git config global 
 git config --global user.name "UserName"
 git config --global user.email "UserEmail"
-
+// how to see all branches
+git branch
+// create a branch
+git branch newfeature
+//got in branch 
+git checkout newfeature
 // create a new remote repo in your github account
 // take link of that repo 
 // add your remote to your local 
