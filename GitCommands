@@ -59,5 +59,10 @@ git stash list
 git stash show
 git stash apply
 
+// show all commit 
+git log 
+// revert commit
+git log --oneline
+git revert "hash"
 
 
