@@ -1,16 +1,27 @@
 // 1- create a directory 
 mkdir dir-repo
-// 2- initialize it to local repo
 cd dir-repo
+// 2- initialize it to local repo
+// turn a directory into an empty git repo
 git init
 // 3- create new file
 touch file1
 // 4- add the file to staging area
-git add
+git add fileName
+//or add all files in directory to stagingarea
+git add .
 // 5- show which file need to be  commited
 git status
 // commit file 
 git commit -m "first commit"
+// use git config to play with settings 
+// git config local to current repo
+git config user.name "UserName"
+git config user.email "UserEmail"
+//git config global 
+git config --global user.name "UserName"
+git config --global user.email "UserEmail"
+
 // create a new remote repo in your github account
 // take link of that repo 
 // add your remote to your local 
@@ -19,4 +30,5 @@ git remote add origin " link of remote repo "
 git pull origin master 
 // add what in your local repo to your remote repo
 git push origin master
+
 
